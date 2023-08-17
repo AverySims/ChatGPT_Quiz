@@ -19,12 +19,12 @@ namespace MathQuizApp
             List<QuizQuestion> mathQuestions = new List<QuizQuestion>
             {
                 // GPT generated questions
-                new QuizQuestion { QuestionText = "What is 2 + 2?", CorrectAnswer = 4 },
-                new QuizQuestion { QuestionText = "What is 5 - 3?", CorrectAnswer = 2 },
+                new QuizQuestion { QuestionText = "What is 9 + 10?", CorrectAnswer = 19 },
+                new QuizQuestion { QuestionText = "What is 50 x 3 ?", CorrectAnswer = 150 },
                 // Add more math questions here...
                 // user generated questions
-                new QuizQuestion { QuestionText = "What is 16 - 8?", CorrectAnswer = 8 },
-                new QuizQuestion { QuestionText = "What is 12 - 4?", CorrectAnswer = 8 },
+                new QuizQuestion { QuestionText = "What is 3 / 1?", CorrectAnswer = 3 },
+                new QuizQuestion { QuestionText = "What is 128 x 2?", CorrectAnswer = 256 },
             };
 
             Console.WriteLine("Welcome to the Math Quiz!");
