@@ -7,6 +7,7 @@ namespace MathQuizApp
     {
         // only setting default value so VS stops yelling at me,
         // works perfectly fine without the default value assignment.
+        // test comment
         public string QuestionText { get; set; } = "Question: ";
         public int CorrectAnswer { get; set; }
     }
